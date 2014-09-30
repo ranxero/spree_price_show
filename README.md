@@ -10,17 +10,16 @@ admin -> Configuration -> General Configuration -> Currency Settings -> Show Pri
 when checkbox is selected(= true)<br/> 
 product prices are displayed to all users<br/> 
 no matter if signed in or not.<br/>
-<br/><br/>
+<br/>
 if checkbox is not selected(= false)<br/> 
 product prices are only displayed to users<br/> 
-that are currently signed in.<br/>
-<br/><br/>
-specs<br/>
-written for spree 2.3 on rails 4.1.4<br/>
+who are currently signed in.<br/>
 <br/>
-install as gem<br/><br/> 
-
+# Tested for Versions ####################################<br/>
+spree 2.3 on rails 4.1.4<br/>
+<br/>
 ####### installation ####################################<br/>
+standard installation as gem from githunb<br/><br/> 
 put this line at the end of you application's Gemfile:
 <br/><br/>
 gem 'spree_price_show', :git => 'git://github.com/ranxero/spree_price_show', :branch => 'master'
