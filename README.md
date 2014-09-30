@@ -43,7 +43,7 @@ then remove Genfile.lock if exists<br/>
 then remove this line<br/>
 gem 'spree_price_show', :git => 'git://github.com/ranxero/spree_price_show', :branch => 'master'<br/>
 from the end of you Gemfile<br/>
-then run:<br/><br/>
+then run:<br/>
 bundle install<br/>
 <br/>
 you might will have to restart the server<br/><br/>
