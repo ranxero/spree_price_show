@@ -20,6 +20,7 @@ written for spree 2.3 on rails 4.1.4<br/>
 <br/>
 install as gem<br/><br/> 
 
+####### installation ####################################<br/>
 put this line at the end of you application's Gemfile:
 <br/><br/>
 gem 'spree_price_show', :git => 'git://github.com/ranxero/spree_price_show', :branch => 'master'
@@ -34,8 +35,18 @@ and remove the mark from the checkbox and update the page.<br/><br/>
 on the frontend product spirces will no be visible anymore to<br/> 
 users who are not signed in.<br/><br/>
 
-
-
+####### de-installation ####################################<br/>
+gem cleanup spree_price_show<br/>
+gem uninstall spree_price_show<br/>
+<br/>
+then remove Genfile.lock if exists<br/>
+then remove this line<br/>
+gem 'spree_price_show', :git => 'git://github.com/ranxero/spree_price_show', :branch => 'master'<br/>
+from the end of you Gemfile<br/>
+then run:<br/><br/>
+bundle install<br/>
+<br/>
+you might will have to restart the server<br/><br/>
 
 
 
