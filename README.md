@@ -15,7 +15,7 @@ if checkbox is not selected(= false)<br/>
 product prices are only displayed to users<br/> 
 who are currently signed in.<br/>
 <br/>
-# Tested for Versions ####################################<br/>
+####### Tested for Versions ####################################<br/>
 spree 2.3 on rails 4.1.4<br/>
 <br/>
 ####### installation ####################################<br/>
